@@ -20,5 +20,5 @@ It allows you to swap tokens through Uniswap V1.
 Implementation of DyDx flash loan. You just need to specify the exchanges and tokens involved in your transactions when calling the function **initiateFlashLoan**. In order for the transaction to be successful, you will need to search for opportunities, whether your preferred strategy is arbitrage, yield farming or other.
 **Only three exchanges are supported**: Uniswap, Sushiswap and DAI+USDC+USDT+TUSD CurveFinance's pool. 
 
-:warning:**Important Note: flashloan.sol test works fine but they will fail if no profits are made.**:warning:
+:warning:**Important Note: flashloan.sol tests work fine but they will fail if no profits are made.**:warning:
 
